@@ -1,0 +1,102 @@
+.icons{
+margin-left: 50px;
+margin-top: 10px;
+}
+.logo{
+    color: rgb(59, 162, 241);
+    font-size: 28px;
+    padding: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+.logo:hover{
+    background-color: rgba(201, 232, 243, 0.598);
+    border-radius:100px;
+}
+.icon{
+    font-size: 28px;
+    margin-top: 2px;
+    border-radius: 20px;
+    padding: 6px;
+    max-width: max-content;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: rgb(227, 227, 231);
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 16px;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.btn-left{
+    background-color: rgb(29, 155, 240);
+    color: rgb(255, 255, 255);
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    width: 230px;
+    height: 52px;
+    padding: 5px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.profil-pup{
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(15, 20, 25);
+    font-size: 15px;
+    font-weight: 600;
+    z-index: 2;
+    max-width: 350px;
+    width: 300px;
+    position: absolute;
+    top: 425px;
+}
+.pup{
+    padding: 15px;
+    cursor: pointer;
+}
+.pup:hover{
+    background-color: rgb(246, 245, 245);
+}
+.profil{
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 245px;
+    height: 65px;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+.profil img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.profil-text{
+    padding-right: 40px;
+}
+.text-in{
+    font-weight: 700;
+}
+.text-inn{
+    color: rgb(83, 100, 113);
+}
+.profil:hover{
+    background-color: rgb(227, 227, 231);
+    border-radius: 80px;
+}

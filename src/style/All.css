@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.all{
+    display: flex;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.left{
+    width: 25%;
+}
+.mid{
+    width: 600px;
+    border-left: solid 1px rgb(239, 243, 244);
+    border-right: solid 1px rgb(239, 243, 244);
+
+}
+.right{
+    width: 35%;
+}
